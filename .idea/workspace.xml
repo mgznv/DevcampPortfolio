@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0725472-0ceb-4047-9e99-e65c5b9fff0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,7 @@
           <entry key="css" value="1" />
           <entry key="erb" value="4" />
           <entry key="js" value="1" />
+          <entry key="md" value="1" />
           <entry key="rb" value="14" />
           <entry key="scss" value="2" />
           <entry key="txt" value="1" />
@@ -41,6 +43,7 @@
           <entry key="CSS" value="1" />
           <entry key="CoffeeScript" value="1" />
           <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="4" />
           <entry key="Ruby" value="14" />
@@ -51,6 +54,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="erb" value="46" />
+          <entry key="md" value="46" />
           <entry key="rb" value="147" />
           <entry key="scss" value="4" />
           <entry key="txt" value="5" />
@@ -59,6 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="46" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="RHTML" value="46" />
           <entry key="Ruby" value="147" />
@@ -75,9 +80,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="16" selection-start-column="16" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,6 +110,7 @@
         <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
         <option value="$PROJECT_DIR$/tmp/restart.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,12 +193,12 @@
       <updated>1533337900610</updated>
       <workItem from="1533337902095" duration="2235000" />
       <workItem from="1533400690436" duration="5530000" />
-      <workItem from="1533514984965" duration="614000" />
+      <workItem from="1533514984965" duration="1335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8379000" />
+    <option name="totallyTimeSpent" value="9100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,12 +211,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.501548" side_tool="true" weight="0.18318795" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.2044199" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49881047" visible="true" weight="0.22889611" />
+      <window_info anchor="bottom" x="72" y="162" width="1277" height="550" id="Terminal" order="1" sideWeight="0.49881047" type="WINDOWED" weight="0.16558442" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50118953" side_tool="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.49960348" weight="0.3289256" />
@@ -347,6 +366,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
