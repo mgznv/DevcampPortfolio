@@ -1,24 +1,18 @@
-# Portafolio app
+# Portafolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Esta es una aplicacion de Ruby on Rails 5 que permite a los usuarios crear su propio portafolio.
 
-Things you may want to cover:
+### Caracteristicas
 
-* Ruby version
+- Motor de chat en tiempo real para los comentarios.
+- Blog.
+- Portafolio.
+- Interface Arrastrar y Soltar
 
-* System dependencies
+### Ejemplo de Codigo
+```ruby
+def my_great_method
+  puts "hello"
+end
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
