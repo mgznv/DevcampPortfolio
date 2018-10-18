@@ -15,10 +15,7 @@
 <body>
 
 <%= render 'shared/portfolio_nav' %>
-
-<!-- Start of masthead -->
-<%= render 'shared/portfolio_masthead'%>
-<!-- End of masthead -->
+<%= render 'shared/portfolio_masthead' unless logged_in?(:site_admin)%>
 
 <%= yield %>
 
