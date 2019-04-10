@@ -2,7 +2,7 @@ CarrierWave.configure do |config|
   config.storage    = :aws
   config.aws_bucket = ENV.fetch('S3_BUCKET_NAME') # for AWS-side bucket access permissions config, see section below
   config.aws_acl    = 'public-read'
-  config.asset_host = 'https://s3-us-west-1.amazonaws.com/devcamp-portfolio-bucket-mgznv'
+  config.asset_host = 'https://s3-us-west-1.amazonaws.com/devcamp-mgznv'
   config.aws_authenticated_url_expiration = 60 * 60 * 24 * 7
   config.aws_attributes = {
       expires: 1.week.from_now.httpdate,
