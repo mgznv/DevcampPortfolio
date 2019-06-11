@@ -24,15 +24,15 @@ module ApplicationHelper
     [
         {
             url: root_path,
-            title: 'Home'
+            title: 'Inicio'
         },
         {
             url: about_me_path,
-            title: 'About me'
+            title: 'Sobre mi'
         },
         {
             url: contact_path,
-            title: 'Contact'
+            title: 'Contacto'
         },
         {
             url: blogs_path,
@@ -40,7 +40,7 @@ module ApplicationHelper
         },
         {
             url: portfolios_path,
-            title: 'Portfolio'
+            title: 'Portafolio de Proyectos'
         },
     ]
   end

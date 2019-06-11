@@ -2,9 +2,10 @@
 ready = ->
   Typed.new '.element',
     strings: [
-      'Software development is the closest concept we have to magic.'
-      "It's my goal to ensure that anyone with a passion for coding can become a true programming artisan."
-    ]
+      "Si tu pagina web sigue en los 90's"
+      'Te puedo ayudar a renovarla para darle un toque mas fresco'
+      'El desarrollo de software es el concepto más cercano que tenemos a la magia.'
+      ]
     typeSpeed: 0
   return
 
