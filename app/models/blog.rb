@@ -6,6 +6,8 @@ class Blog < ApplicationRecord
   validates_presence_of :title, :body, :topic_id
 
   belongs_to :topic, optional: true
+  mount_uploader :thumb_image, BlogUploader
+  mount_uploader :main_image, BlogUploader
 
   has_many :comments, dependent: :destroy
 

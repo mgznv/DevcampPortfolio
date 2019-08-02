@@ -8,6 +8,7 @@
     <% if params[:action] == "show" %>
       <%= blog.body %>
     <% elsif params[:action] == "index"%>
+      <%= image_tag blog.thumb_image, class: 'img-fluid'%>
       <%= truncate(sanitize(blog.body, tags: []), length: 350)%>
     <%end%>
   </p>
