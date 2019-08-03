@@ -3,8 +3,9 @@
     <h1 class="blog-title">Un blog mas</h1>
     <p class="lead blog-description">Un blog de TODO...   y NADA</p>
     <span>
-      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+      <%= link_to 'Escribir una nueva entrada ', new_blog_path if logged_in?(:site_admin) %>
     </span>
+    <br>
     <span>
       <%= link_to 'Categorias', topics_path %>
     </span>

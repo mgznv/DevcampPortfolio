@@ -1,12 +1,16 @@
 <div class="blog-post">
   <h2 class="blog-post-title"> <%= link_to blog.title.upcase, blog %>  </h2>
-  <p class="blog-post-meta"> Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> Ago  </p>
+  <p class="blog-post-meta"> Publicado hace <%= distance_of_time_in_words(blog.created_at, Time.now) %>  </p>
 
   <%= render partial: 'blogs/admin_actions', locals: {blog: blog} %>
 
   <p>
     <% if params[:action] == "show" %>
       <%= blog.body %>
+      <% if params[:controller] == "topics"%>
+        <%= image_tag blog.thumb_image, class: 'img-fluid'%>
+        <%= truncate(sanitize(blog.body, tags: []), length: 350)%>
+      <% end %>
     <% elsif params[:action] == "index"%>
       <%= image_tag blog.thumb_image, class: 'img-fluid'%>
       <%= truncate(sanitize(blog.body, tags: []), length: 350)%>
