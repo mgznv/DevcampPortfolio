@@ -6,7 +6,7 @@
 
   <p>
     <% if params[:action] == "show" %>
-      <%= blog.body %>
+      <%= blog.body unless params[:controller] == "topics"%> 
       <% if params[:controller] == "topics"%>
         <%= image_tag blog.thumb_image, class: 'img-fluid'%>
         <%= truncate(sanitize(blog.body, tags: []), length: 350)%>
